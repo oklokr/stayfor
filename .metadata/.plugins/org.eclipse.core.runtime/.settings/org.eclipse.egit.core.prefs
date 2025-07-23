@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=C\:\\project\\aws-project\\Workspace\\stayfor_user_service\\.git;C\:\\project\\aws-project\\Workspace\\stayfor_message_service\\.git;C\:\\project\\aws-project\\Workspace\\stayfor_bnb_service\\.git;C\:\\project\\aws-project\\Workspace\\stayfor_eureka_server\\.git;C\:\\project\\aws-project\\Workspace\\stayfor_config_server\\.git;C\:\\project\\aws-project\\Workspace\\stayfor_api_gateway\\.git;
+GitRepositoriesView.GitDirectories.relative=stayfor_user_service\\.git;stayfor_message_service\\.git;stayfor_bnb_service\\.git;stayfor_eureka_server\\.git;stayfor_config_server\\.git;stayfor_api_gateway\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

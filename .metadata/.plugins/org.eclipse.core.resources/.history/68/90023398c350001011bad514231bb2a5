@@ -1,0 +1,12 @@
+package com.stayfor.fileupload_service.model;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties(prefix = "file.upload")
+public class FileUploadProperties {
+    private String userDir;
+    private String reviewDir;
+    private String accommDir;
+}

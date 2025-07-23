@@ -1,0 +1,217 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-StayforConfigServerApplication<stayfor_config_server>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.stayfor_config_server.StayforConfigServerApplication",
+      "projectName": "stayfor_config_server",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52732 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=stayfor_config_server"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-StayforEurekaServerApplication<stayfor_eureka_server>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.stayfor_eureka_server.StayforEurekaServerApplication",
+      "projectName": "stayfor_eureka_server",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52743 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=stayfor_eureka_server"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-FileuploadServiceApplication<fileupload_service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.fileupload_service.FileuploadServiceApplication",
+      "projectName": "fileupload_service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52832 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=fileupload_service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ReviewsServiceApplication<reviews_service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.reviews_service.ReviewsServiceApplication",
+      "projectName": "reviews_service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53677 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=reviews_service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-StayforApiGatewayApplication<stayfor_api_gateway>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.stayfor_api_gateway.StayforApiGatewayApplication",
+      "projectName": "stayfor_api_gateway",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-UserServiceApplication<user_service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.user_service.UserServiceApplication",
+      "projectName": "user_service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52780 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=user_service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-BnbServiceApplication<bnb_service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.bnb_service.BnbServiceApplication",
+      "projectName": "bnb_service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53713 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=bnb_service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-AlarmServiceApplication<alarm_service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.alarm_service.AlarmServiceApplication",
+      "projectName": "alarm_service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=55498 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=alarm_service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-MessageServiceApplication<message_service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.message_service.MessageServiceApplication",
+      "projectName": "message_service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53695 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=message_service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-AdminServiceApplication<admin_service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.admin_service.AdminServiceApplication",
+      "projectName": "admin_service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=55482 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=admin_service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ReserveServiceApplication<reserve_service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.reserve_service.ReserveServiceApplication",
+      "projectName": "reserve_service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53686 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=reserve_service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-PaymentServiceApplication<payment_service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.payment_service.PaymentServiceApplication",
+      "projectName": "payment_service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=55578 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=payment_service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-AttractionServiceApplication<attraction_service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.attraction_service.AttractionServiceApplication",
+      "projectName": "attraction_service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=55517 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=attraction_service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ReviewsServiceApplication<reviews-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.reviews_service.ReviewsServiceApplication",
+      "projectName": "reviews-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-StayforConfigServerApplication<stayfor-config-server>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.stayfor_config_server.StayforConfigServerApplication",
+      "projectName": "stayfor-config-server",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-StayforEurekaServerApplication<stayfor-eureka-server>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.stayfor_eureka_server.StayforEurekaServerApplication",
+      "projectName": "stayfor-eureka-server",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-BnbServiceApplication<stayfor-bnb-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.BnbServiceApplication",
+      "projectName": "stayfor-bnb-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51991 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=stayfor-bnb-service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-MessageServiceApplication<stayfor-message-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.MessageServiceApplication",
+      "projectName": "stayfor-message-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-UserServiceApplication<stayfor-user-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.UserServiceApplication",
+      "projectName": "stayfor-user-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-StayforApiGatewayApplication<stayfor-api-gateway>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.stayfor.stayfor_api_gateway.StayforApiGatewayApplication",
+      "projectName": "stayfor-api-gateway",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

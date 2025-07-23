@@ -1,0 +1,5 @@
+package com.stayfor.reviews_service.model;
+
+public class ReviewsDto {
+
+}

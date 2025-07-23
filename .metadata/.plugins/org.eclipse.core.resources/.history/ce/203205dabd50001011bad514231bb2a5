@@ -1,0 +1,10 @@
+package com.stayfor.fileupload_service.model;
+
+@Component
+@ConfigurationProperties(prefix = "file.upload")
+public class FileUploadProperties {
+	private String userDir;
+    private String reviewDir;
+    private String accommDir;
+
+}

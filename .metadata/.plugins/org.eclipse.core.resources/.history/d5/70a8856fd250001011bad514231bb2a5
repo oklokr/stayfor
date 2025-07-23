@@ -1,0 +1,25 @@
+package com.stayfor.reviews_service.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.stayfor.reviews_service.model.ReviewDto;
+import com.stayfor.reviews_service.service.ReviewService;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+
+
+@RestController
+@RequestMapping
+public class ReviewsController {
+    @Autowired
+    private ReviewService reviewService;
+    
+    @PostMapping("/reviews/getReviewList")
+    public List<ReviewDto> postMethodName() {
+        return reviewService;
+    }
+}

@@ -1,0 +1,5 @@
+package com.stayfor.fileupload_service.service;
+
+public class FileUploadService {
+
+}

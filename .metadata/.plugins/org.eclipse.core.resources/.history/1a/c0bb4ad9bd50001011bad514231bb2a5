@@ -1,0 +1,5 @@
+package com.stayfor.fileupload_service.model;
+
+public class FileUploadProperties {
+
+}

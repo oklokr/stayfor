@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;fileupload_service/src/main/java/com/stayfor/fileupload_service/service/FileUploadService.java&apos; to &apos;FileStorageService.java&apos;" description="Rename resource &apos;FileUploadService.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/stayfor/fileupload_service/service/FileUploadService.java" name="FileStorageService.java" stamp="1750740555977" updateReferences="true"/>
+</session>

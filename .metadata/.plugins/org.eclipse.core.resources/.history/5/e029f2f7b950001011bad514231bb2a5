@@ -1,0 +1,30 @@
+package com.stayfor.fileupload_service;
+
+import java.io.File;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+
+import jakarta.annotation.PostConstruct;
+
+@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
+public class FileuploadServiceApplication {
+
+	@Value("${upload.directory}")
+	private String uploadDirectory;
+	
+	
+	public static void main(String[] args) {
+		SpringApplication.run(FileuploadServiceApplication.class, args);
+	}
+
+	@PostConstruct
+	public void init() {
+		File directory = new File(uploadDirectory);
+		if (!directory.exists()) {
+			directory.mkdirs();
+		}
+	}
+}
